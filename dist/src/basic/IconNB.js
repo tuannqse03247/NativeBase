@@ -60,8 +60,8 @@ var _EvilIcons = require("react-native-vector-icons/EvilIcons");
 var _EvilIcons2 = _interopRequireDefault(_EvilIcons);
 var _mapPropsToStyleNames = require("../utils/mapPropsToStyleNames");
 var _mapPropsToStyleNames2 = _interopRequireDefault(_mapPropsToStyleNames);
-var _MyIcons=require("../basic/CustomFont/MyIcons");
-var _MyIcons2=_interopRequireDefault(_MyIcons);
+import { MyIcons } from '../basic/CustomFont/MyIcons';
+var _MyIcons2=_interopRequireDefault(MyIcons);
 
 function _interopRequireDefault(obj) {
     return obj && obj.__esModule
@@ -220,7 +220,8 @@ IconNB.propTypes = {
             "MaterialIcons",
             "Octicons",
             "SimpleLineIcons",
-            "Zocial"
+            "Zocial",
+            "MyIcons"
         ])
 };
 var StyledIconNB = (0, _nativeBaseShoutemTheme.connectStyle)("NativeBase.IconNB", {}, _mapPropsToStyleNames2.default)(IconNB);
