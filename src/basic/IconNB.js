@@ -14,6 +14,7 @@ import Octicons from "react-native-vector-icons/Octicons";
 import Zocial from "react-native-vector-icons/Zocial";
 import SimpleLineIcons from "react-native-vector-icons/SimpleLineIcons";
 import EvilIcons from "react-native-vector-icons/EvilIcons";
+import { MyIcons } from '../basic/CustomFont/MyIcons';
 
 import mapPropsToStyleNames from "../utils/mapPropsToStyleNames";
 
@@ -61,6 +62,9 @@ class IconNB extends Component {
     case "Zocial":
       this.Icon = Zocial;
       break;
+    case "MyIcons":
+      this.Icon = MyIcons;
+      break; 
     default:
       this.Icon = Ionicons;
     }
@@ -98,7 +102,8 @@ IconNB.propTypes = {
     "MaterialIcons",
     "Octicons",
     "SimpleLineIcons",
-    "Zocial"
+    "Zocial",
+    "MyIcons",
   ])
 };
 

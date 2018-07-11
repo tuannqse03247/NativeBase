@@ -60,8 +60,6 @@ var _EvilIcons = require("react-native-vector-icons/EvilIcons");
 var _EvilIcons2 = _interopRequireDefault(_EvilIcons);
 var _mapPropsToStyleNames = require("../utils/mapPropsToStyleNames");
 var _mapPropsToStyleNames2 = _interopRequireDefault(_mapPropsToStyleNames);
-import { MyIcons } from '../basic/CustomFont/MyIcons';
-var _MyIcons2=_interopRequireDefault(MyIcons);
 
 function _interopRequireDefault(obj) {
     return obj && obj.__esModule
@@ -158,10 +156,6 @@ var IconNB = function (_Component) {
                         this.Icon = _Zocial2.
                     default;
                         break;
-                    case "MyIcons":
-                        this.Icon = _MyIcons2.
-                    default;
-                        break; 
                     default:
                         this.Icon = _Ionicons2.
                     default;
