@@ -1,0 +1,2 @@
+Object.defineProperty(exports,"__esModule",{value:true});exports.MyIcons=undefined;var _reactNativeVectorIcons=require('react-native-vector-icons');var _MyIcons=require('./MyIcons.json');var _MyIcons2=_interopRequireDefault(_MyIcons);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj};}var MyIcons=(0,_reactNativeVectorIcons.createIconSetFromIcoMoon)(_MyIcons2.default,'icomoon','MyIcons.ttf');exports.MyIcons=MyIcons;
+//# sourceMappingURL=MyIcons.js.map
