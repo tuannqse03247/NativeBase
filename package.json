@@ -43,6 +43,7 @@
     "react-native-keyboard-aware-scroll-view": "0.5.0",
     "react-native-vector-icons": "4.6.0",
     "react-tween-state": "^0.1.5",
+    "rnpm": "^1.9.0",
     "tween-functions": "^1.0.1"
   },
   "devDependencies": {
@@ -78,7 +79,7 @@
   },
   "rnpm": {
     "assets": [
-      "Fonts"
+      "./Fonts"
     ]
   }
 }
